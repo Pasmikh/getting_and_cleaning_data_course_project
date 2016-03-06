@@ -1,4 +1,4 @@
-# getting_and_cleaning_data_course_projectREADME
+#README
 Code consists of 5 parts:
 1)Downloading and reading the data. Raw data is downloaded to the temporary file. That could be handy for you not to download it yourself and set working directory, but download and read it in R. If you do not have internet limitations of course :)
   Then data is being read from the temporary file. For both test and train datasets, files X_test.txt containing values, y_test.txt containing labels, subject_test.txt containing subject ids are being read to files test_values, test_labels, test_subject, train_values, train_labels, train_subject respectively are being created. Code uses readr package in order to fasten reading process.
